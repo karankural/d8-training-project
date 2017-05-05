@@ -1,0 +1,30 @@
+uuid: f7c86a87-e59b-46f2-bb1e-9d7d7d3802f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.user.field_user_demo
+    - paragraphs.paragraphs_type.user
+_core:
+  default_config_hash: IVNMftLSiMiWhIrOG56whNIQ28G2WmNw2_HCawV22hM
+id: paragraph.user.default
+targetEntityType: paragraph
+bundle: user
+mode: default
+content:
+  field_user_demo:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  translation:
+    weight: 10
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

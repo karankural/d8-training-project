@@ -1,0 +1,14 @@
+uuid: 3e98905b-83b8-47ca-a3dd-ec5e12105ecb
+name: 'D8 Training Project'
+mail: odie.miranda@gmail.com
+slogan: ''
+page:
+  403: /system/403
+  404: /system/404
+  front: /node/2
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
